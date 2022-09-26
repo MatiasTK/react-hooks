@@ -57,12 +57,12 @@ export default function UseMemo() {
         <summary role="button">Links Útiles</summary>
         <ul>
           <li>
-            <a href="https://es.reactjs.org/docs/hooks-reference.html#usememo" target="_blank">
+            <a href="https://es.reactjs.org/docs/hooks-reference.html#usememo" target="_blank" rel="noreferrer">
               React Docs
             </a>
           </li>
           <li>
-            <a href="https://www.w3schools.com/react/react_usememo.asp" target="_blank">
+            <a href="https://www.w3schools.com/react/react_usememo.asp" target="_blank" rel="noreferrer">
               W3Schools
             </a>
           </li>

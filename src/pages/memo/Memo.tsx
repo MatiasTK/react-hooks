@@ -4,7 +4,7 @@ import Todos from './Todos'
 
 export default function Memo() {
   const [count, setCount] = useState(0)
-  const [todos, setTodos] = useState(['todo1', 'todo2'])
+  const [todos] = useState(['todo1', 'todo2'])
 
   const increment = () => {
     setCount((prevCount) => prevCount + 1)
@@ -40,12 +40,12 @@ export default function Memo() {
         <summary role="button">Links Útiles</summary>
         <ul>
           <li>
-            <a href="https://reactjs.org/docs/react-api.html#reactmemo" target="_blank">
+            <a href="https://reactjs.org/docs/react-api.html#reactmemo" target="_blank" rel="noreferrer">
               React Docs
             </a>
           </li>
           <li>
-            <a href="https://www.w3schools.com/react/react_memo.asp" target="_blank">
+            <a href="https://www.w3schools.com/react/react_memo.asp" target="_blank" rel="noreferrer">
               W3Schools
             </a>
           </li>
