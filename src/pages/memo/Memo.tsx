@@ -13,7 +13,7 @@ export default function Memo() {
   return (
     <div className="container-fluid">
       <Link to="/" style={{ marginTop: '1rem' }}>
-        <p>← Home</p>
+        <p>🏠Home</p>
       </Link>
       <article style={{ border: '2px solid #1095c1' }}>
         <Todos todos={todos} />

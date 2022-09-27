@@ -5,9 +5,6 @@ function App() {
     <div className="container" style={{ textAlign: 'center', paddingTop: '2rem' }}>
       <h1>Ejemplos de utilización de los Hooks de React</h1>
       <article style={{ marginTop: 0 }}>
-        <Link to="/Memo">
-          <button>React Memo</button>
-        </Link>
         <Link to="/useContext">
           <button>React useContext</button>
         </Link>
@@ -22,6 +19,13 @@ function App() {
         </Link>
         <Link to="/useMemo">
           <button>React useMemo</button>
+        </Link>
+        <hr />
+        <h3>Extra</h3>
+        <Link to="/Memo">
+          <button data-tooltip="Ya se que no es un hook" data-placement="bottom">
+            React Memo
+          </button>
         </Link>
       </article>
     </div>
